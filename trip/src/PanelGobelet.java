@@ -12,7 +12,7 @@ public class  PanelGobelet extends JPanel {
 
         try {
 
-            Image img = ImageIO.read(new File("Gobelet.png"));
+            Image img = ImageIO.read(new File("D:\\EXIA\\innovaion\\alex\\trip\\Gobelet.png"));
 
 
 

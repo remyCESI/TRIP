@@ -13,9 +13,7 @@ public class Panel extends JPanel {
 
             try {
 
-                Image img = ImageIO.read(new File("BK.png"));
-
-
+                Image img = ImageIO.read(new File("D:\\EXIA\\innovaion\\alex\\trip\\BK.png"));
 
                 //Pour une image de fond
 

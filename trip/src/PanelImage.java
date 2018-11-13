@@ -10,7 +10,7 @@ public class PanelImage extends JPanel {
 
         try {
 
-            Image img = ImageIO.read(new File("logo.png"));
+            Image img = ImageIO.read(new File("D:\\EXIA\\innovaion\\alex\\trip\\logo.png"));
 
 
 

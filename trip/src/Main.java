@@ -7,8 +7,8 @@ public class Main {
 
         new Model();
 
-        //View home = new View();
+        View home = new View();
 
-        //home.init();
+        home.init();
     }
 }

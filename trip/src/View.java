@@ -1,10 +1,12 @@
+import com.exia.trip.model.Model;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 
 
-public class View {
+public class View extends Model {
 
     public void init(){
 
@@ -18,10 +20,11 @@ public class View {
 
 //ContactB
 
-        JButton ContactB = new JButton(new ImageIcon("phone.png"));
-        JButton HomeB = new JButton(new ImageIcon("home.png"));
-        JButton TravelB = new JButton(new ImageIcon("truck.png"));
-        JButton WasteB = new JButton(new ImageIcon("waste.png"));
+        JButton ContactB = new JButton(new ImageIcon("D:\\EXIA\\innovaion\\alex\\trip\\phone.png"));
+        JButton HomeB = new JButton(new ImageIcon("D:\\EXIA\\innovaion\\alex\\trip\\home.png"));
+        JButton TravelB = new JButton(new ImageIcon("D:\\EXIA\\innovaion\\alex\\trip\\truck.png"));
+        JButton WasteB = new JButton(new ImageIcon("D:\\EXIA\\innovaion\\alex\\trip\\waste.png"));
+        JLabel numGob = new JLabel();
         Color jauneT = new Color(230,232,91);
 
 
@@ -55,6 +58,7 @@ public class View {
         Home.add(pan);
 
 
+        numGob.setBounds(700, 100, 500, 500);
         ContactB.setBounds(600, 700, 80,35);
         HomeB.setBounds(700, 700, 80,35);
         TravelB.setBounds(800, 700, 80,35);
@@ -63,6 +67,16 @@ public class View {
         Gobelet.setBounds(1080, 200, 247, 290);
 
 
+        Font font = new Font("Arial", Font.BOLD, 200); //set font for the label
+        numGob.setFont(font); //apply the font to JLabel
+        numGob.setForeground(Color.WHITE); //set color of JPanel text
+
+
+        int gob = getCptCup();
+        numGob.setText(Integer.toString(gob));
+
+
+        pan.add(numGob);
         pan.add(ContactB);
         pan.add(HomeB);
         pan.add(TravelB);
@@ -71,10 +85,5 @@ public class View {
         pan.add(Gobelet);
 
         Home.setVisible(true);
-
-
-
-
-
     }
 }

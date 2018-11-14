@@ -20,10 +20,10 @@ public class View extends Model {
 
 //ContactB
 
-        JButton ContactB = new JButton(new ImageIcon("D:\\EXIA\\innovaion\\alex\\trip\\phone.png"));
-        JButton HomeB = new JButton(new ImageIcon("D:\\EXIA\\innovaion\\alex\\trip\\home.png"));
-        JButton TravelB = new JButton(new ImageIcon("D:\\EXIA\\innovaion\\alex\\trip\\truck.png"));
-        JButton WasteB = new JButton(new ImageIcon("D:\\EXIA\\innovaion\\alex\\trip\\waste.png"));
+        JButton ContactB = new JButton(new ImageIcon("phone.png"));
+        JButton HomeB = new JButton(new ImageIcon("home.png"));
+        JButton TravelB = new JButton(new ImageIcon("truck.png"));
+        JButton WasteB = new JButton(new ImageIcon("waste.png"));
         JLabel numGob = new JLabel();
         Color jauneT = new Color(230,232,91);
 

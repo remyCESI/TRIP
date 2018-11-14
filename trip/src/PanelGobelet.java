@@ -1,3 +1,5 @@
+import com.exia.trip.model.Model;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -5,16 +7,14 @@ import java.io.File;
 import java.io.IOException;
 
 
-public class  PanelGobelet extends JPanel {
+public class  PanelGobelet extends JPanel{
 
     public void paintComponent(Graphics g){
 
 
         try {
 
-            Image img = ImageIO.read(new File("D:\\EXIA\\innovaion\\alex\\trip\\Gobelet.png"));
-
-
+            Image img = ImageIO.read(new File("Gobelet.png"));
 
             //Pour une image de fond
 

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.trip">
+  <grid id="27dc6" binding="MainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="756" height="676"/>
+    </constraints>
+    <properties>
+      <background color="-15843067"/>
+      <opaque value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="60364" binding="BottomPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="fc321" binding="ButtonP" layout-manager="FlowLayout" hgap="30" vgap="5" flow-align="1">
+            <constraints border-constraint="South"/>
+            <properties>
+              <opaque value="false"/>
+              <preferredSize width="1000" height="50"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="2ce66" class="javax.swing.JButton" binding="homeButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-660643"/>
+                  <borderPainted value="true"/>
+                  <contentAreaFilled value="true"/>
+                  <doubleBuffered value="false"/>
+                  <focusPainted value="false"/>
+                  <focusable value="false"/>
+                  <foreground color="-660643"/>
+                  <hideActionText value="false"/>
+                  <icon value="home.png"/>
+                  <inheritsPopupMenu value="false"/>
+                  <maximumSize width="99" height="30"/>
+                  <minimumSize width="99" height="30"/>
+                  <opaque value="true"/>
+                  <preferredSize width="88" height="40"/>
+                  <text value=""/>
+                  <verifyInputWhenFocusTarget value="true"/>
+                </properties>
+              </component>
+              <component id="32d11" class="javax.swing.JButton" binding="phoneBtn">
+                <constraints/>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <background color="-660643"/>
+                  <borderPainted value="true"/>
+                  <icon value="phone.png"/>
+                  <preferredSize width="88" height="40"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="85630" class="javax.swing.JButton" binding="trashBtn">
+                <constraints/>
+                <properties>
+                  <background color="-660643"/>
+                  <icon value="waste.png"/>
+                  <preferredSize width="88" height="40"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="63818" class="javax.swing.JButton" binding="truckBtn">
+                <constraints/>
+                <properties>
+                  <background color="-660643"/>
+                  <borderPainted value="true"/>
+                  <icon value="truck.png"/>
+                  <preferredSize width="88" height="40"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="35577" binding="LogoP" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="8c098" class="javax.swing.JLabel" binding="Logo">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <foreground color="-1"/>
+                  <horizontalAlignment value="0"/>
+                  <icon value="logo.png"/>
+                  <preferredSize width="200" height="125"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="73811" binding="CenterPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <enabled value="true"/>
+          <opaque value="false"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="15f71" class="javax.swing.JLabel" binding="Compteur">
+            <constraints>
+              <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="72"/>
+              <foreground color="-1"/>
+              <opaque value="false"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="2fe1c" class="javax.swing.JTextArea" binding="leSaviezVousVousTextArea" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial" size="14"/>
+              <foreground color="-918273"/>
+              <opaque value="false"/>
+              <text value="Le saviez-vous ?&#10;&#10;Vous pouvez utiliser votre mug dans la machine à café.&#10;Placer le simplement à l'endroit prévu et choisissez votre boisson, facile !"/>
+            </properties>
+          </component>
+          <grid id="124b9" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="30" left="10" bottom="0" right="10"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="d928d" class="javax.swing.JLabel" binding="Gobelet">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="11"/>
+                  <icon value="Gobelet.png"/>
+                  <iconTextGap value="5"/>
+                  <opaque value="false"/>
+                  <text value=""/>
+                  <visible value="true"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

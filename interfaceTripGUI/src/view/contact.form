@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.contact">
+  <grid id="27dc6" binding="MainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1008" height="386"/>
+    </constraints>
+    <properties>
+      <inheritsPopupMenu value="true"/>
+      <minimumSize width="1008" height="386"/>
+      <opaque value="false"/>
+      <preferredSize width="1008" height="386"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="bd84f" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="c38a1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="10" bottom="10" right="10"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="31586" class="javax.swing.JLabel" binding="projectPresentation">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <autoscrolls value="false"/>
+                  <background color="-262657"/>
+                  <font name="Arial" size="24"/>
+                  <foreground color="-262657"/>
+                  <opaque value="false"/>
+                  <text value="Le projet TRIP"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="4ea42" class="javax.swing.JTextPane" binding="tripMetEnPlaceTextPane" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-15843067"/>
+              <caretColor color="-15843067"/>
+              <editable value="false"/>
+              <font name="Arial" size="16"/>
+              <foreground color="-262657"/>
+              <margin top="50" left="50" bottom="50" right="50"/>
+              <opaque value="true"/>
+              <selectedTextColor color="-15843067"/>
+              <text value="Trip met en place des solutions de traitements et d'analyses dans les entreprises pour les aider à réduire leur consommation de déchets : gobelets plastiques, papier, carton...  &#10;&#10;Cette poubelle sensibilise les collaborateurs sur leur consommation de gobelets et leur fournit des informations sur le recyclage des déchets.&#10;&#10;Vous avez une question ? Une remarque ? Une suggestion ? Un problème ? Contactez-nous !"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="32f7e" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ed211" class="javax.swing.JLabel" binding="contact">
+            <constraints/>
+            <properties>
+              <background color="-918273"/>
+              <font name="Arial" size="24"/>
+              <foreground color="-262657"/>
+              <opaque value="false"/>
+              <requestFocusEnabled value="false"/>
+              <text value="Contact : ask@trip.fr"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

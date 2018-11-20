@@ -23,16 +23,28 @@ public class truck {
      */
     private void $$$setupUI$$$() {
         panel1 = new JPanel();
+<<<<<<< HEAD
         panel1.setLayout(new com.intellij.uiDesigner.core.GridLayoutManager(1, 2, new Insets(0, 0, 0, 0), -1, -1));
+=======
+        panel1.setLayout(new com.intellij.uiDesigner.core.GridLayoutManager(2, 2, new Insets(0, 0, 0, 0), -1, -1));
+>>>>>>> 042274018d3b25400fba9ac7bbf7471701debba6
         quEstDevenuVotreTextArea = new JTextArea();
         Font quEstDevenuVotreTextAreaFont = this.$$$getFont$$$(null, -1, 26, quEstDevenuVotreTextArea.getFont());
         if (quEstDevenuVotreTextAreaFont != null) quEstDevenuVotreTextArea.setFont(quEstDevenuVotreTextAreaFont);
         quEstDevenuVotreTextArea.setText("Qu'est devenu votre dechet ?");
+<<<<<<< HEAD
         panel1.add(quEstDevenuVotreTextArea, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, null, new Dimension(150, 50), null, 0, false));
         final JLabel label1 = new JLabel();
         label1.setIcon(new ImageIcon(getClass().getResource("/Rond_rouge.png")));
         label1.setText("");
         panel1.add(label1, new com.intellij.uiDesigner.core.GridConstraints(0, 1, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(50, 50), null, 0, false));
+=======
+        panel1.add(quEstDevenuVotreTextArea, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 1, 2, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_WANT_GROW, null, new Dimension(150, 50), null, 0, false));
+        final JLabel label1 = new JLabel();
+        label1.setIcon(new ImageIcon(getClass().getResource("/Rond_rouge.png")));
+        label1.setText("");
+        panel1.add(label1, new com.intellij.uiDesigner.core.GridConstraints(1, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+>>>>>>> 042274018d3b25400fba9ac7bbf7471701debba6
     }
 
     /**

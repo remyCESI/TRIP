@@ -51,7 +51,7 @@ public class contact {
         tripMetEnPlaceTextPane.setBackground(new Color(-15843067));
         tripMetEnPlaceTextPane.setCaretColor(new Color(-15843067));
         tripMetEnPlaceTextPane.setEditable(false);
-        Font tripMetEnPlaceTextPaneFont = this.$$$getFont$$$("Arial", -1, 16, tripMetEnPlaceTextPane.getFont());
+        Font tripMetEnPlaceTextPaneFont = this.$$$getFont$$$("Arial", -1, 20, tripMetEnPlaceTextPane.getFont());
         if (tripMetEnPlaceTextPaneFont != null) tripMetEnPlaceTextPane.setFont(tripMetEnPlaceTextPaneFont);
         tripMetEnPlaceTextPane.setForeground(new Color(-262657));
         tripMetEnPlaceTextPane.setMargin(new Insets(50, 50, 50, 50));

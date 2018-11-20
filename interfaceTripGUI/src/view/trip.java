@@ -63,7 +63,7 @@ public class trip implements IObserver {
         trashBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                 JPanel trashPanel = (JPanel) new trash().$$$getRootComponent$$$();
+                JPanel trashPanel = (JPanel) new trash().$$$getRootComponent$$$();
                 displayPanel(trashPanel);
 
             }
@@ -145,7 +145,6 @@ public class trip implements IObserver {
         homeButton.setMinimumSize(new Dimension(99, 30));
         homeButton.setOpaque(true);
         homeButton.setPreferredSize(new Dimension(118, 58));
-        homeButton.setPreferredSize(new Dimension(88, 40));
         homeButton.setText("");
         homeButton.setVerifyInputWhenFocusTarget(true);
         ButtonP.add(homeButton);

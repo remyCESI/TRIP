@@ -21,11 +21,11 @@ import java.util.Random;
 public class trash {
 
 
-<<<<<<<HEAD
+<<<<<<< HEAD
     private JSONObject jsonObj;
 =======
-        // private JSONObject jsonObj;
-        >>>>>>>042274018d3b25400fba9ac7bbf7471701debba6
+    // private JSONObject jsonObj;
+>>>>>>> 042274018d3b25400fba9ac7bbf7471701debba6
     private JTextArea kirikouTextArea;
     private JPanel panel1;
     private HashMap<Integer, String> information = new HashMap<Integer, String>();
@@ -160,7 +160,7 @@ public class trash {
         return panel1;
     }
 
-    <<<<<<<HEAD
+<<<<<<< HEAD
     /*public String NombreDechetParHabitant() {
 =======
    /* public String NombreDechetParHabitant() {

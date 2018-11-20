@@ -55,7 +55,7 @@
               <background color="-15843067"/>
               <caretColor color="-15843067"/>
               <editable value="false"/>
-              <font name="Arial" size="16"/>
+              <font name="Arial" size="20"/>
               <foreground color="-262657"/>
               <margin top="50" left="50" bottom="50" right="50"/>
               <opaque value="true"/>

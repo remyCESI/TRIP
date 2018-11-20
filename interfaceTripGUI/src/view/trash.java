@@ -1,10 +1,6 @@
 package view;
 
-<<<<<<< HEAD
 import org.json.JSONObject;
-=======
-//import org.json.JSONObject;
->>>>>>> 042274018d3b25400fba9ac7bbf7471701debba6
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,11 +17,7 @@ import java.util.Random;
 public class trash {
 
 
-<<<<<<< HEAD
     private JSONObject jsonObj;
-=======
-    // private JSONObject jsonObj;
->>>>>>> 042274018d3b25400fba9ac7bbf7471701debba6
     private JTextArea kirikouTextArea;
     private JPanel panel1;
     private HashMap<Integer, String> information = new HashMap<Integer, String>();
@@ -160,11 +152,7 @@ public class trash {
         return panel1;
     }
 
-<<<<<<< HEAD
     /*public String NombreDechetParHabitant() {
-=======
-   /* public String NombreDechetParHabitant() {
->>>>>>> 042274018d3b25400fba9ac7bbf7471701debba6
         int dechetParHabitant = 0;
         try {
             URL url = new URL("https://data.rennesmetropole.fr/api/records/1.0/search/?dataset=stats-collecte-dechets");

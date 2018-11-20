@@ -35,12 +35,6 @@ public class trip implements IObserver {
     //Panels bind to view of ihm
     private JPanel contactPanel;
 
-    //Panels bind to view of ihm
-    private JPanel trashPanel;
-
-    // Panels bind to view of ihm
-    private JPanel truckPanel;
-
     public trip() {
         phoneBtn.addActionListener(new ActionListener() {
             @Override
@@ -54,24 +48,9 @@ public class trip implements IObserver {
                 displayPanel(CenterPanel);
             }
         });
-        truckBtn.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                displayPanel(truckPanel);
-            }
-        });
-        trashBtn.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                 JPanel trashPanel = (JPanel) new trash().$$$getRootComponent$$$();
-                displayPanel(trashPanel);
-
-            }
-        });
     }
 
     private void displayPanel(JPanel newPanel) {
-
         this.MainPanel.remove(currentPanel);
         this.MainPanel.add(newPanel, BorderLayout.CENTER);
         currentPanel = newPanel;
@@ -87,8 +66,6 @@ public class trip implements IObserver {
         this.frame = frame;
         this.currentPanel = this.CenterPanel;
         this.contactPanel = (JPanel) new contact().$$$getRootComponent$$$();
-        this.trashPanel = (JPanel) new trash().$$$getRootComponent$$$();
-        this.truckPanel = (JPanel) new truck().$$$getRootComponent$$$();
     }
 
 

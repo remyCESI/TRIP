@@ -17,7 +17,7 @@
         </properties>
         <border type="none"/>
         <children>
-          <grid id="fc321" binding="ButtonP" layout-manager="FlowLayout" hgap="30" vgap="0" flow-align="1">
+          <grid id="fc321" binding="ButtonP" layout-manager="FlowLayout" hgap="30" vgap="5" flow-align="1">
             <constraints border-constraint="South"/>
             <properties>
               <opaque value="false"/>
@@ -41,7 +41,7 @@
                   <maximumSize width="99" height="30"/>
                   <minimumSize width="99" height="30"/>
                   <opaque value="true"/>
-                  <preferredSize width="98" height="50"/>
+                  <preferredSize width="88" height="40"/>
                   <text value=""/>
                   <verifyInputWhenFocusTarget value="true"/>
                 </properties>
@@ -53,7 +53,7 @@
                   <background color="-660643"/>
                   <borderPainted value="true"/>
                   <icon value="phone.png"/>
-                  <preferredSize width="98" height="50"/>
+                  <preferredSize width="88" height="40"/>
                   <text value=""/>
                 </properties>
               </component>
@@ -62,7 +62,7 @@
                 <properties>
                   <background color="-660643"/>
                   <icon value="waste.png"/>
-                  <preferredSize width="98" height="50"/>
+                  <preferredSize width="88" height="40"/>
                   <text value=""/>
                 </properties>
               </component>
@@ -72,7 +72,7 @@
                   <background color="-660643"/>
                   <borderPainted value="true"/>
                   <icon value="truck.png"/>
-                  <preferredSize width="98" height="50"/>
+                  <preferredSize width="88" height="40"/>
                   <text value=""/>
                 </properties>
               </component>
@@ -91,7 +91,7 @@
                   <foreground color="-1"/>
                   <horizontalAlignment value="0"/>
                   <icon value="logo.png"/>
-                  <preferredSize width="200" height="100"/>
+                  <preferredSize width="200" height="125"/>
                   <text value=""/>
                 </properties>
               </component>
@@ -127,7 +127,7 @@
               </grid>
             </constraints>
             <properties>
-              <font name="Arial" size="20"/>
+              <font name="Arial" size="14"/>
               <foreground color="-918273"/>
               <opaque value="false"/>
               <text value="Le saviez-vous ?&#10;&#10;Vous pouvez utiliser votre mug dans la machine à café.&#10;Placer le simplement à l'endroit prévu et choisissez votre boisson, facile !"/>

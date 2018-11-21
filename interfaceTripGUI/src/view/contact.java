@@ -41,7 +41,7 @@ public class contact {
         projectPresentation = new JLabel();
         projectPresentation.setAutoscrolls(false);
         projectPresentation.setBackground(new Color(-262657));
-        Font projectPresentationFont = this.$$$getFont$$$("Arial", -1, 28, projectPresentation.getFont());
+        Font projectPresentationFont = this.$$$getFont$$$("Arial", -1, 24, projectPresentation.getFont());
         if (projectPresentationFont != null) projectPresentation.setFont(projectPresentationFont);
         projectPresentation.setForeground(new Color(-262657));
         projectPresentation.setOpaque(false);
@@ -51,7 +51,7 @@ public class contact {
         tripMetEnPlaceTextPane.setBackground(new Color(-15843067));
         tripMetEnPlaceTextPane.setCaretColor(new Color(-15843067));
         tripMetEnPlaceTextPane.setEditable(false);
-        Font tripMetEnPlaceTextPaneFont = this.$$$getFont$$$("Arial", -1, 22, tripMetEnPlaceTextPane.getFont());
+        Font tripMetEnPlaceTextPaneFont = this.$$$getFont$$$("Arial", -1, 16, tripMetEnPlaceTextPane.getFont());
         if (tripMetEnPlaceTextPaneFont != null) tripMetEnPlaceTextPane.setFont(tripMetEnPlaceTextPaneFont);
         tripMetEnPlaceTextPane.setForeground(new Color(-262657));
         tripMetEnPlaceTextPane.setMargin(new Insets(50, 50, 50, 50));

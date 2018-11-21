@@ -37,7 +37,7 @@
                 <properties>
                   <autoscrolls value="false"/>
                   <background color="-262657"/>
-                  <font name="Arial" size="24"/>
+                  <font name="Arial" size="28"/>
                   <foreground color="-262657"/>
                   <opaque value="false"/>
                   <text value="Le projet TRIP"/>
@@ -55,7 +55,7 @@
               <background color="-15843067"/>
               <caretColor color="-15843067"/>
               <editable value="false"/>
-              <font name="Arial" size="16"/>
+              <font name="Arial" size="22"/>
               <foreground color="-262657"/>
               <margin top="50" left="50" bottom="50" right="50"/>
               <opaque value="true"/>

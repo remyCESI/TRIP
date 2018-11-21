@@ -63,7 +63,7 @@ public class trip implements IObserver {
         trashBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                 JPanel trashPanel = (JPanel) new trash().$$$getRootComponent$$$();
+                JPanel trashPanel = (JPanel) new trash().$$$getRootComponent$$$();
                 displayPanel(trashPanel);
 
             }
@@ -126,7 +126,7 @@ public class trip implements IObserver {
         BottomPanel.setOpaque(false);
         MainPanel.add(BottomPanel, BorderLayout.SOUTH);
         ButtonP = new JPanel();
-        ButtonP.setLayout(new FlowLayout(FlowLayout.CENTER, 30, 5));
+        ButtonP.setLayout(new FlowLayout(FlowLayout.CENTER, 30, 0));
         ButtonP.setOpaque(false);
         ButtonP.setPreferredSize(new Dimension(1000, 50));
         BottomPanel.add(ButtonP, BorderLayout.SOUTH);
@@ -144,7 +144,7 @@ public class trip implements IObserver {
         homeButton.setMaximumSize(new Dimension(99, 30));
         homeButton.setMinimumSize(new Dimension(99, 30));
         homeButton.setOpaque(true);
-        homeButton.setPreferredSize(new Dimension(88, 40));
+        homeButton.setPreferredSize(new Dimension(98, 50));
         homeButton.setText("");
         homeButton.setVerifyInputWhenFocusTarget(true);
         ButtonP.add(homeButton);
@@ -153,20 +153,20 @@ public class trip implements IObserver {
         phoneBtn.setBackground(new Color(-660643));
         phoneBtn.setBorderPainted(true);
         phoneBtn.setIcon(new ImageIcon(getClass().getResource("/phone.png")));
-        phoneBtn.setPreferredSize(new Dimension(88, 40));
+        phoneBtn.setPreferredSize(new Dimension(98, 50));
         phoneBtn.setText("");
         ButtonP.add(phoneBtn);
         trashBtn = new JButton();
         trashBtn.setBackground(new Color(-660643));
         trashBtn.setIcon(new ImageIcon(getClass().getResource("/waste.png")));
-        trashBtn.setPreferredSize(new Dimension(88, 40));
+        trashBtn.setPreferredSize(new Dimension(98, 50));
         trashBtn.setText("");
         ButtonP.add(trashBtn);
         truckBtn = new JButton();
         truckBtn.setBackground(new Color(-660643));
         truckBtn.setBorderPainted(true);
         truckBtn.setIcon(new ImageIcon(getClass().getResource("/truck.png")));
-        truckBtn.setPreferredSize(new Dimension(88, 40));
+        truckBtn.setPreferredSize(new Dimension(98, 50));
         truckBtn.setText("");
         ButtonP.add(truckBtn);
         LogoP = new JPanel();
@@ -177,7 +177,7 @@ public class trip implements IObserver {
         Logo.setForeground(new Color(-1));
         Logo.setHorizontalAlignment(0);
         Logo.setIcon(new ImageIcon(getClass().getResource("/logo.png")));
-        Logo.setPreferredSize(new Dimension(200, 125));
+        Logo.setPreferredSize(new Dimension(200, 100));
         Logo.setText("");
         LogoP.add(Logo, BorderLayout.CENTER);
         CenterPanel = new JPanel();
@@ -194,7 +194,7 @@ public class trip implements IObserver {
         Compteur.setText("0");
         CenterPanel.add(Compteur, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 2, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_EAST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         leSaviezVousVousTextArea = new JTextArea();
-        Font leSaviezVousVousTextAreaFont = this.$$$getFont$$$("Arial", -1, 14, leSaviezVousVousTextArea.getFont());
+        Font leSaviezVousVousTextAreaFont = this.$$$getFont$$$("Arial", -1, 20, leSaviezVousVousTextArea.getFont());
         if (leSaviezVousVousTextAreaFont != null) leSaviezVousVousTextArea.setFont(leSaviezVousVousTextAreaFont);
         leSaviezVousVousTextArea.setForeground(new Color(-918273));
         leSaviezVousVousTextArea.setOpaque(false);

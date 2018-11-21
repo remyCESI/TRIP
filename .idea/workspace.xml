@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="TRIP:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b300939d-eefc-449a-be39-febe572ddf77" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TRIP_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaceTripGUI/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaceTripGUI/src/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceTripGUI/src/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaceTripGUI/src/view/contact.form" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceTripGUI/src/view/contact.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaceTripGUI/src/view/contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceTripGUI/src/view/contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaceTripGUI/src/view/trash.form" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceTripGUI/src/view/trash.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interfaceTripGUI/src/view/trash.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceTripGUI/src/view/trash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaceTripGUI/src/view/trip.form" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceTripGUI/src/view/trip.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaceTripGUI/src/view/trip.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceTripGUI/src/view/trip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaceTripGUI/src/view/tripView.java" beforeDir="false" afterPath="$PROJECT_DIR$/interfaceTripGUI/src/view/tripView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket.py" beforeDir="false" afterPath="$PROJECT_DIR$/socket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/contracts/IObservable.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/contracts/IObservable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/contracts/IObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/contracts/IObserver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/model/EngineCom.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/model/EngineCom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/model/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/view/contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/view/contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/view/trash.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/view/trash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/view/trip$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/view/trip$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/view/trip$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/view/trip$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/view/trip$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/view/trip$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/view/trip$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/view/trip$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/view/trip.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/view/trip.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/view/tripView.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/view/tripView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip/out/production/TRIP/view/truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/trip/out/production/TRIP/view/truck.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/interfaceTripGUI/out/" />
     <ignored path="$PROJECT_DIR$/trip/out/" />
@@ -25,23 +57,54 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="form" value="1" />
-          <entry key="java" value="3" />
+          <entry key="java" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="20" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="20" />
+          <entry key="JAVA" value="10" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-304455816">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="form" value="3" />
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="GUI_DESIGNER_FORM" value="3" />
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -51,20 +114,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/trip.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2278">
+              <caret line="148" column="35" selection-start-line="148" selection-start-column="35" selection-end-line="148" selection-end-column="35" />
+              <folding>
+                <element signature="e#1131#1132#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#1340#1341#0" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
+                <element signature="e#1546#1547#0" expanded="true" />
+                <element signature="e#1602#1603#0" expanded="true" />
+                <element signature="e#2674#2675#0" expanded="true" />
+                <element signature="e#2750#2751#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/tripView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/truck.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/trip.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/contact.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/trash.form">
+          <provider selected="true" editor-type-id="ui-designer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/trash.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="124" column="7" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -77,8 +185,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/interfaceTripGUI/src/view/truck.form" />
         <option value="$PROJECT_DIR$/interfaceTripGUI/src/view/trash.java" />
+        <option value="$PROJECT_DIR$/interfaceTripGUI/src/view/truck.form" />
+        <option value="$PROJECT_DIR$/interfaceTripGUI/src/view/trip.form" />
+        <option value="$PROJECT_DIR$/interfaceTripGUI/src/view/contact.form" />
+        <option value="$PROJECT_DIR$/interfaceTripGUI/src/view/trash.form" />
+        <option value="$PROJECT_DIR$/interfaceTripGUI/src/view/tripView.java" />
       </list>
     </option>
   </component>
@@ -88,37 +200,58 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-665" />
+    <option name="y" value="-20" />
+    <option name="width" value="2420" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TRIPF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TRIPF" type="462c0819:PsiDirectoryNode" />
+              <item name="TRIP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TRIP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TRIP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TRIP" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaceTripGUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TRIP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TRIP" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaceTripGUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TRIP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TRIP" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaceTripGUI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542726860348" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542803598760" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/interfaceTripGUI/out" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -163,18 +296,18 @@
       <option name="presentableId" value="Default" />
       <updated>1542724845274</updated>
       <workItem from="1542724846451" duration="658000" />
-      <workItem from="1542726062244" duration="788000" />
+      <workItem from="1542726062244" duration="295000" />
+      <workItem from="1542801403279" duration="705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1446000" />
+    <option name="totallyTimeSpent" value="6070000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -183,7 +316,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -192,7 +325,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32867134" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -211,25 +344,132 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/truck.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/trash.java">
+    <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/trip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="124" column="7" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="7" />
+        <state relative-caret-position="2278">
+          <caret line="148" column="35" selection-start-line="148" selection-start-column="35" selection-end-line="148" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#2674#2675#0" expanded="true" />
+            <element signature="e#2750#2751#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/trash.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/trash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/tripView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/truck.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/trip.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interfaceTripGUI/src/view/contact.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>TRIP:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TRIP</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

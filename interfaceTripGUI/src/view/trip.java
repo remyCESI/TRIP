@@ -23,6 +23,7 @@ public class trip implements IObserver {
     private JButton trashBtn;
     private JButton truckBtn;
     private JTextArea leSaviezVousVousTextArea;
+    private JTextArea Objectif;
 
     //Object to observe
     private IObservable model;
@@ -63,7 +64,7 @@ public class trip implements IObserver {
         trashBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                 JPanel trashPanel = (JPanel) new trash().$$$getRootComponent$$$();
+                JPanel trashPanel = (JPanel) new trash().$$$getRootComponent$$$();
                 displayPanel(trashPanel);
 
             }
@@ -100,6 +101,10 @@ public class trip implements IObserver {
     @Override
     public void setObservable(IObservable obj) {
 
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
     }
 
     {
@@ -181,29 +186,22 @@ public class trip implements IObserver {
         Logo.setText("");
         LogoP.add(Logo, BorderLayout.CENTER);
         CenterPanel = new JPanel();
-        CenterPanel.setLayout(new com.intellij.uiDesigner.core.GridLayoutManager(2, 2, new Insets(0, 0, 0, 0), -1, -1));
+        CenterPanel.setLayout(new com.intellij.uiDesigner.core.GridLayoutManager(3, 1, new Insets(0, 0, 0, 0), -1, -1));
         CenterPanel.setEnabled(true);
         CenterPanel.setOpaque(false);
         CenterPanel.setVisible(true);
         MainPanel.add(CenterPanel, BorderLayout.CENTER);
-        Compteur = new JLabel();
-        Font CompteurFont = this.$$$getFont$$$(null, -1, 72, Compteur.getFont());
-        if (CompteurFont != null) Compteur.setFont(CompteurFont);
-        Compteur.setForeground(new Color(-1));
-        Compteur.setOpaque(false);
-        Compteur.setText("0");
-        CenterPanel.add(Compteur, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 2, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_EAST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
         leSaviezVousVousTextArea = new JTextArea();
         Font leSaviezVousVousTextAreaFont = this.$$$getFont$$$("Arial", -1, 14, leSaviezVousVousTextArea.getFont());
         if (leSaviezVousVousTextAreaFont != null) leSaviezVousVousTextArea.setFont(leSaviezVousVousTextAreaFont);
         leSaviezVousVousTextArea.setForeground(new Color(-918273));
         leSaviezVousVousTextArea.setOpaque(false);
         leSaviezVousVousTextArea.setText("Le saviez-vous ?\n\nVous pouvez utiliser votre mug dans la machine à café.\nPlacer le simplement à l'endroit prévu et choisissez votre boisson, facile !");
-        CenterPanel.add(leSaviezVousVousTextArea, new com.intellij.uiDesigner.core.GridConstraints(1, 1, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_VERTICAL, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(200, 50), null, 0, false));
+        CenterPanel.add(leSaviezVousVousTextArea, new com.intellij.uiDesigner.core.GridConstraints(2, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_VERTICAL, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(200, 50), null, 0, false));
         final JPanel panel1 = new JPanel();
-        panel1.setLayout(new com.intellij.uiDesigner.core.GridLayoutManager(1, 1, new Insets(30, 10, 0, 10), -1, -1));
+        panel1.setLayout(new com.intellij.uiDesigner.core.GridLayoutManager(3, 3, new Insets(30, 10, 0, 10), -1, -1));
         panel1.setOpaque(false);
-        CenterPanel.add(panel1, new com.intellij.uiDesigner.core.GridConstraints(0, 1, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_BOTH, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(200, -1), null, 0, false));
+        CenterPanel.add(panel1, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 2, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_BOTH, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(200, -1), null, 0, false));
         Gobelet = new JLabel();
         Gobelet.setHorizontalAlignment(11);
         Gobelet.setIcon(new ImageIcon(getClass().getResource("/Gobelet.png")));
@@ -211,7 +209,22 @@ public class trip implements IObserver {
         Gobelet.setOpaque(false);
         Gobelet.setText("");
         Gobelet.setVisible(true);
-        panel1.add(Gobelet, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+        panel1.add(Gobelet, new com.intellij.uiDesigner.core.GridConstraints(0, 2, 3, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_CENTER, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
+        Objectif = new JTextArea();
+        Objectif.setEditable(false);
+        Font ObjectifFont = this.$$$getFont$$$("Arial", -1, 36, Objectif.getFont());
+        if (ObjectifFont != null) Objectif.setFont(ObjectifFont);
+        Objectif.setForeground(new Color(-918273));
+        Objectif.setOpaque(false);
+        Objectif.setText("gobelets jetés sur 200 gobelets");
+        panel1.add(Objectif, new com.intellij.uiDesigner.core.GridConstraints(0, 1, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_WEST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, new Dimension(200, 50), null, 0, false));
+        Compteur = new JLabel();
+        Font CompteurFont = this.$$$getFont$$$("Arial", -1, 72, Compteur.getFont());
+        if (CompteurFont != null) Compteur.setFont(CompteurFont);
+        Compteur.setForeground(new Color(-1));
+        Compteur.setOpaque(false);
+        Compteur.setText("0");
+        panel1.add(Compteur, new com.intellij.uiDesigner.core.GridConstraints(0, 0, 1, 1, com.intellij.uiDesigner.core.GridConstraints.ANCHOR_EAST, com.intellij.uiDesigner.core.GridConstraints.FILL_NONE, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, com.intellij.uiDesigner.core.GridConstraints.SIZEPOLICY_FIXED, null, null, null, 0, false));
     }
 
     /**
